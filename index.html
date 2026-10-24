@@ -1,0 +1,62 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>NoteVault | Your Digital Space</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <header>
+    <a class="logo" href="#"> Note<span>Vault</span></a>
+    <nav>
+      <a href="#home">Home</a>
+      <a href="#features">Features</a>
+      <a href="#notes">My Notes</a>
+      <a href="#feedback">Feedback</a>
+    </nav>
+    <button onclick="alert('Sign-in coming soon!')">Sign In</button>
+  </header>
+
+  <main>
+    <section id="home" class="hero">
+      <h1>Your Ideas. <span>Your Space.</span></h1>
+      <p>Capture thoughts, organize ideas, and keep inspiration close.</p>
+      <a href="#notes" class="cta">Start Writing </a>
+    </section>
+
+    <section id="features" class="features">
+      <article><h3>Private Space</h3><p>Keep your notes organized in your browser.</p></article>
+      <article><h3>Quick Notes</h3><p>Write down ideas whenever inspiration strikes.</p></article>
+      <article><h3>Easy Organization</h3><p>Search, review, and delete your saved notes.</p></article>
+    </section>
+
+    <section id="notes" class="workspace">
+      <h2> My Notebook</h2>
+      <input id="title" placeholder="Give your note a title...">
+      <textarea id="note" placeholder="What's on your mind?"></textarea>
+      <button id="save"> Save Note</button>
+      <input id="search" placeholder="Search your notes...">
+      <div id="notesList"></div>
+    </section>
+
+    <section id="feedback" class="workspace">
+      <h2> Your Feedback Matters</h2>
+      <p>Help us make NoteVault better for everyone.</p>
+      <textarea id="feedbackText" placeholder="Share your thoughts..."></textarea>
+      <button onclick="alert('Thank you for your feedback! Connect a backend to submit it.')">Send Feedback</button>
+      <h3>contact</h3>
+      <p>email:davisokoth9@gmail.com</p>
+      <p>phone:0714677621</p>
+    </section>
+  </main>
+
+  <footer>
+    <a class="logo" href="#">NoteVault</a>
+    <p>Your thoughts, one place. </p>
+    <small>© 2026 NoteVault. Built for creative minds.</small>
+  </footer>
+</body>
+</html>
